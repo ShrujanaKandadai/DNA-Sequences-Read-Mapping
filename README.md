@@ -5,7 +5,9 @@
 
 # Program Execution 
 ### The program is executed from the command line using Python and the argparse module for argument parsing. It requires three input paths and a k-mer size:
-***python readmapper.py -k <k-mer size> <reference_file> <reads_file> <output_directory>***\***For example: python readmapper.py -k 5 ref.fasta reads.fasta results/***
+***python readmapper.py -k <k-mer size> <reference_file> <reads_file> <output_directory>***
+
+***For example: python readmapper.py -k 5 ref.fasta reads.fasta results/***
 ### The program prints progress messages to the terminal and produces three output files in the specified output directory. 
 * output1.txt – list of best mapping locations (read ID, reference ID, start position, mismatches).
 * output2.txt – coverage values for each reference sequence.
